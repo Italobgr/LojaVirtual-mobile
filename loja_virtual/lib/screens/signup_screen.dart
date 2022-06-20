@@ -115,7 +115,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         )
     );
   }
-
+//validação
   void _onSuccess(){
     _scaffoldKey.currentState.showSnackBar(
       SnackBar(content: Text("Usuário criado com sucesso!"),
