@@ -57,7 +57,7 @@ class CartModel extends Model {
 
   void incProduct(CartProduct cartProduct){
     cartProduct.quantity++;
-
+//conect com firebase
     Firestore.instance.collection("users").document(user.firebaseUser.uid).collection("cart")
         .document(cartProduct.cid).updateData(cartProduct.toMap());
 
