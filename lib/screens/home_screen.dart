@@ -21,6 +21,7 @@ class HomeScreen extends StatelessWidget {
           drawer: CustomDrawer(_pageController),
           floatingActionButton: CartButton(),
         ),
+        
         Scaffold(
           appBar: AppBar(
             title: Text("Produtos"),
