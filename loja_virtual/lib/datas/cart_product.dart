@@ -4,7 +4,7 @@ import 'package:loja_virtual/datas/product_data.dart';
 class CartProduct {
 
   String cid;
-
+//mudanças nos produtos
   String category;
   String pid;
 
