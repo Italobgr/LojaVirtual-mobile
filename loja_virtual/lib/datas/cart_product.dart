@@ -23,6 +23,10 @@ class CartProduct {
     size = document.data["size"];
   }
 
+  //new collection itens
+
+  
+
   Map<String, dynamic> toMap(){
     return {
       "category": category,
