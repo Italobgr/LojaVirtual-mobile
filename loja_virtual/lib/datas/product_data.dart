@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';//init a implementation at a new version firebase
 
 class ProductData {
 
@@ -13,7 +13,8 @@ class ProductData {
   List images;
   List sizes;
 
-  ProductData.fromDocument(DocumentSnapshot snapshot){
+  ProductData.fromDocument(DocumentSnapshot snapshot){//depreciete method
+    
     id = snapshot.documentID;
     title = snapshot.data["title"];
     description = snapshot.data["description"];
