@@ -13,7 +13,7 @@ class ProductData {
   List images;
   List sizes;
 
-  ProductData.fromDocument(DocumentSnapshot snapshot){//depreciete method
+  ProductData.fromDocument(DocumentSnapshot snapshot){
     
     id = snapshot.documentID;
     title = snapshot.data["title"];
